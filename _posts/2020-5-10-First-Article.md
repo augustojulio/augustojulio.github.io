@@ -1,11 +1,9 @@
 ---
 layout: post
-title: O primeiro artigo - Sobre este blog
+title: O primeiro artigo (sobre este blog)
 ---
 
-Oi pessoal!
-
-Sou Augusto de Paula Júlio, engenheiro de software, empreendedor por natureza, tenista nas horas vagas, mochileiro e também escritor por hobby.
+Oi pessoal! Sou Augusto de Paula Júlio, engenheiro de software, empreendedor por natureza, tenista nas horas vagas, mochileiro e também escritor por hobby.
 
 O objetivo deste blog é servir como um banco de dados de textos que já escrevi e escreverei e agrupá-los em um único lugar na internet. Existirão textos que já foram publicados no LinkedIn, em outros blogs, etc.
 
