@@ -1,78 +1,18 @@
+---
+layout: default
+---
 
-<!DOCTYPE html>
-<html lang="pt-br">
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script type="text/javascript" src="mouse.js"></script>
-  <meta charset="utf-8" />
-  <title>Augusto de Paula Júlio</title>
-  <link rel="canonical" href="//augustojulio.github.io" />
-  <link rel="icon" type="image/ico" href="tennis_ball.png">
-  <meta name="theme-color" content="#0d0e47" />
-  <meta property="og:type" content="profile" />
-  <meta name="twitter:card" content="profile" />
-  <meta property="og:url" content="//augustojulio.github.io" />
-  <meta property="og:image" content="//avatars3.githubusercontent.com/u/11393026" />
-  <meta name="author" content="Augusto de Paula Júlio">
-  <meta property="og:title" content="Augusto de Paula Júlio" />
-  <meta name="Description" content="Software Engineer" />
-  <meta name="description" content="Software Engineer">
-  <meta property="og:description" content="Software Engineer" />
-</head>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-<body>
-  <section class="container-fluid text-center">
-    <article class="col-xs-12 col-md-12">
-      <div id="tennis-ball-pixel" class="col-md-3">
-        <img src="tennis_ball_pixel.gif" width="400" alt="tennis ball pixel gif">
+      <div class="entry">
+        {{ post.excerpt }}
       </div>
 
-      <div class="col-xs-12 col-md-6 article">
-        <img class="profile-picture" src="//avatars3.githubusercontent.com/u/11393026" alt="augusto profile picture"
-          height="200" width="200">
-        <h2>AUGUSTO DE PAULA JÚLIO</h2>
-        <h3>Software Engineer</h3>
-        <nav id="row">
-          <ul class="list-unstyled">
-            <li class="col-md-2">
-              <a href="//www.linkedin.com/in/augusto-julio-2991b620" target="_blank" rel="noopener" aria-label="Linkedin"><i
-                  class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-            </li>
-            <li class="col-md-2">
-              <a href="//github.com/augustojulio/" target="_blank" rel="noopener" aria-label="GitHub"><i
-                  class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
-            </li>
-            <li class="col-md-2">
-              <a href="//instagram.com/augustinhojulio/" target="_blank" rel="noopener" aria-label="instagram"><i
-                  class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-            </li>
-            <li class="col-md-2">
-              <a href="mailto:augusto.juliogec@gmail.com" target="_blank" rel="noopener" aria-label="Email"><i
-                  class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="col-md-3">
-        <img src="tennis_ball.gif" width="300"
-          alt="tennis ball gif">
-      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-  </section>
-  <script>
-    console.log('Console log tennis ball pixel gif')
-
-    const $gif = document.getElementById('tennis-ball-pixel')
-    if (window.matchMedia('(max-width: 800px)').matches) {
-      $gif.remove()
-    }
-
-  </script>
-</body>
-
-</html>
+  {% endfor %}
+</div>
