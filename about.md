@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-[<img src="{{ site.baseurl }}/images/profile-picture.jpg"/>]({{ site.baseurl }}/)
+<link rel="profile" type="image/png" href="{{ site.avatar }}"/>
 
 I'm Augusto de Paula Júlio, software engineer, entrepreneur by nature, tennis player in his spare time, backpacker and also a hobby writer.
 
