@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-<link rel="profile" type="image/png" href="{{ site.avatar }}"/>
-
 I'm Augusto de Paula Júlio, software engineer, entrepreneur by nature, tennis player in his spare time, backpacker and also a hobby writer.
 
 The purpose of this blog is to serve as a database of texts that I have already written and will write and group them in a single place on the internet. There will be texts that have already been published on LinkedIn, on other blogs, etc.
