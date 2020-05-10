@@ -210,6 +210,16 @@ img {
   }
 }
 
+.site-about-link {
+  float: right;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
