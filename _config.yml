@@ -2,11 +2,14 @@
 # This file contains configuration flags to customize your site
 #
 
+# Site title (for homepage)
+title: Augusto de Paula Júlio Blog
+
 # Name of your site (displayed in the header)
 name: Augusto de Paula Júlio
 
 # Short bio or description (displayed in the header)
-description: 
+description: I'm Augusto de Paula Júlio, software engineer, entrepreneur by nature, tennis player in his spare time, backpacker and also a hobby writer. This is my blog!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/11393026?v=4
