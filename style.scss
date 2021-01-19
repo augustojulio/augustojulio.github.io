@@ -210,6 +210,16 @@ img {
   }
 }
 
+.site-icons-header {
+  float: right;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .site-about-link {
   float: right;
 
