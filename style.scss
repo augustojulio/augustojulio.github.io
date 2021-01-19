@@ -211,7 +211,8 @@ img {
 }
 
 .site-icons-header {
-  float: right;
+  float: left;
+  padding-left: 10px;
 
   @include mobile {
     float: none;
