@@ -1,5 +1,21 @@
 {% if site.google_analytics %}
-	<!-- Google Analytics -->
-	<script data-ad-client="ca-pub-2955312762186639" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- End Google Analytics -->
+<!-- Google Analytics -->
+<!-- <script data-ad-client="ca-pub-2955312762186639" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+<!-- End Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-166760605-1"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "UA-166760605-1");
+</script>
+
 {% endif %}
