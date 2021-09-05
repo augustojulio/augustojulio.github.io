@@ -9,7 +9,8 @@ title: Augusto de Paula Júlio Blog
 name: Augusto de Paula Júlio
 
 # Short bio or description (displayed in the header)
-description: I'm Augusto de Paula Júlio, software engineer, entrepreneur by nature, tennis player in his spare time, backpacker and also a hobby writer. This is my blog!
+description: Visit my new website - augustojulio.com
+# I'm Augusto de Paula Júlio, software engineer, entrepreneur by nature, tennis player in his spare time, backpacker and also a hobby writer. This is my blog!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/11393026?v=4
@@ -29,14 +30,13 @@ footer-links:
   linkedin: augusto-de-paula-julio-2991b620/
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: channel/UCpYSge3_ydckmFDYsialyaA # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   magalu: magazinedoaugustinho/
   medium: "@augustojulio/"
   xing: profile/Augusto_dePaulaJulio/
-
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -72,7 +72,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+    css_class: "highlight"
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -92,5 +92,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-
