@@ -47,11 +47,12 @@
             <h1 class="site-name">
               <a href="{{ site.baseurl }}/">{{ site.name }}</a>
             </h1>
-            <p class="site-description">{{ site.description }}</p>
+            <!-- <p class="site-description">{{ site.description }}</p> -->
+            <div class="site-icons-header">{% include svg-icons.html %}</div>
           </div>
 
-          <div class="site-icons-header">{% include svg-icons.html %}</div>
-          <br />
+          <!-- <div class="site-icons-header">{% include svg-icons.html %}</div> -->
+          <!-- <br /> -->
 
           <div class="site-about-link">
             <nav>
@@ -59,6 +60,7 @@
               <a href="{{ site.baseurl }}/about">ABOUT ME</a>
             </nav>
           </div>
+          <div><p class="site-description">{{ site.description }}</p></div>
         </header>
       </div>
     </div>
